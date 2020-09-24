@@ -1,0 +1,6 @@
+
+<ul >
+  <li *ngFor="let hero of heroes; let i in index">
+    <app-herocard [name]="hero.name"[quote]="hero.quote" ></app-herocard>
+   </li>
+</ul>
